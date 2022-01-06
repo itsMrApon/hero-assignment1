@@ -1,68 +1,215 @@
-body{
-  font-family: 'Space Mono', monospace;
-  margin: 30px;
-
+body {
+  font-family: "Space Mono", monospace;
 }
-h1{
+h1 {
   font-size: 50px;
 }
-h2{
+h2 {
   font-size: 30px;
 }
-h3{
+h3 {
   font-size: 50px;
 }
+section {
+  /* box disply dite hoile */
+  /* display: flex; */
+  /* nicher nidke margin */
+  margin-bottom: 100px;
+}
+
+.flex {
+  display: flex;
+}
+
+/* intro of mission2022 */
+/* intro of mission2022 */
 /* intro of mission2022 */
 
-.mission2022yollow{
-  color:#FFAD5A;
-;
+.mission2022yollow {
+  color: #ffad5a;
 }
-section{
-  /* box disply dite hoile */
-  display: flex;
-  
-}
-.intro{
+
+.intro {
   /* box gula soman nite hoile */
   width: 50%;
   /* bairer border e kisu faka rakte hoile */
   padding-left: 5%;
 }
-.intro img{
+.intro-line {
+  border-left: 5px solid red;
+  height: 220px;
+  border-radius: 5px;
+}
+.intro img {
   /* box e img full show korate hoile */
   width: 100%;
 }
-.explorenow-link-button{
+.explorenow-link-button {
   /* text er underscore kate hoile */
   text-decoration: none;
   /* button gradient banaite  */
-  background-image: linear-gradient(#FF5959, tomato);
-  background-color:#FF5959;
+  background-image: linear-gradient(#ff5959, tomato);
+  background-color: #ff5959;
   /* content choura korte bebohar hoy  */
   padding: 10px 40px;
   /* text er color */
   color: white;
   /* 400 regulr 700 bold 100 slim */
-  font-weight: 700 ; 
+  font-weight: 700;
   /* round border use e bebhohar hoy */
   border-radius: 5px;
-
 }
 
-.top-banner{
-
+.top-banner {
 }
-
 
 /* bullet box */
-/* <!-- ourdevelop --> */
-/* <!-- ourcommunity --> */
-/* <!-- build apps --> */
-/* <!-- gocorona --> */
+/* bullet box */
+/* bullet box */
 
+.bullethead {
+  position: relative;
+  padding-left: 30%;
+}
+.bb2022yollow {
+  color: #ffad5a;
+}
+
+/* card-bullet */
+
+.card {
+  width: 33%;
+}
+.card-img {
+  width: 200px;
+}
+.card-img img {
+  width: 100%;
+}
+
+/* <!-- ourdevelop --> */
+/* <!-- ourdevelop --> */
+/* <!-- ourdevelop --> */
+.developer {
+  /* box gula soman nite hoile */
+  width: 50%;
+  /* bairer border e kisu faka rakte hoile */
+  padding-left: 5%;
+}
+.developer img {
+  /* box e img full show korate hoile */
+  width: 100%;
+}
+.documentation-link-button {
+  /* text er underscore kate hoile */
+  text-decoration: none;
+  /* button gradient banaite  */
+  background-image: linear-gradient(#ff5959, tomato);
+  background-color: #ff5959;
+  /* content choura korte bebohar hoy  */
+  padding: 10px 40px;
+  /* text er color */
+  color: white;
+  /* 400 regulr 700 bold 100 slim */
+  font-weight: 700;
+  /* round border use e bebhohar hoy */
+  border-radius: 5px;
+}
+.develop-banner {
+  background-image: url(images/shapes/shape-1.png);
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 20%;
+}
+
+/* <!-- ourcommunity --> */
+/* <!-- ourcommunity --> */
+/* <!-- ourcommunity --> */
+.community {
+  /* box gula soman nite hoile */
+  width: 50%;
+  /* bairer border e kisu faka rakte hoile */
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.community img {
+  /* box e img full show korate hoile */
+  width: 100%;
+}
+.documentation-link-button {
+  /* text er underscore kate hoile */
+  text-decoration: none;
+  /* button gradient banaite  */
+  background-image: linear-gradient(#ff5959, tomato);
+  background-color: #ff5959;
+  /* content choura korte bebohar hoy  */
+  padding: 10px 40px;
+  /* text er color */
+  color: white;
+  /* 400 regulr 700 bold 100 slim */
+  font-weight: 700;
+  /* round border use e bebhohar hoy */
+  border-radius: 5px;
+}
+.community-banner {
+  background-image: url(images/shapes/shape-11.png);
+
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+/* <!-- build apps --> */
+/* <!-- build apps --> */
+/* <!-- build apps --> */
+.buildreact-head {
+  position: relative;
+  padding-left: 30%;
+  font-weight: 700;
+}
+.buildreact-yollow {
+  color: #ffad5a;
+}
+/* <!-- react --> */
+/* <!-- react--> */
+/* <!-- react --> */
+.react {
+  /* box gula soman nite hoile */
+  width: 50%;
+  /* bairer border e kisu faka rakte hoile */
+  padding-left: 5%;
+}
+.react-head-color {
+  color: black;
+}
+
+.react-banner {
+  background-image: url();
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 100%;
+  padding: 10px;
+  color: #ffad5a;
+}
+
+.reactheadash
 
 /* <!-- footer  --> */
-.fsred2022red{
+
+.fsred2022red {
   color: red;
+  position: relative;
+}
+
+footer {
+  text-align: center;
+  background-color: black;
+}
+footer p {
+  text-align: center;
+  color: white;
+}
+footer h4 {
+  text-align: center;
+  color: white;
 }
