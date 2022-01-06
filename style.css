@@ -1,0 +1,68 @@
+body{
+  font-family: 'Space Mono', monospace;
+  margin: 30px;
+
+}
+h1{
+  font-size: 50px;
+}
+h2{
+  font-size: 30px;
+}
+h3{
+  font-size: 50px;
+}
+/* intro of mission2022 */
+
+.mission2022yollow{
+  color:#FFAD5A;
+;
+}
+section{
+  /* box disply dite hoile */
+  display: flex;
+  
+}
+.intro{
+  /* box gula soman nite hoile */
+  width: 50%;
+  /* bairer border e kisu faka rakte hoile */
+  padding-left: 5%;
+}
+.intro img{
+  /* box e img full show korate hoile */
+  width: 100%;
+}
+.explorenow-link-button{
+  /* text er underscore kate hoile */
+  text-decoration: none;
+  /* button gradient banaite  */
+  background-image: linear-gradient(#FF5959, tomato);
+  background-color:#FF5959;
+  /* content choura korte bebohar hoy  */
+  padding: 10px 40px;
+  /* text er color */
+  color: white;
+  /* 400 regulr 700 bold 100 slim */
+  font-weight: 700 ; 
+  /* round border use e bebhohar hoy */
+  border-radius: 5px;
+
+}
+
+.top-banner{
+
+}
+
+
+/* bullet box */
+/* <!-- ourdevelop --> */
+/* <!-- ourcommunity --> */
+/* <!-- build apps --> */
+/* <!-- gocorona --> */
+
+
+/* <!-- footer  --> */
+.fsred2022red{
+  color: red;
+}
