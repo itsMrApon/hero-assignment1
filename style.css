@@ -18,14 +18,14 @@ section {
 }
 
 .flex {
+  /* sobgula jagay box bebhohar er jonno */
   display: flex;
 }
 
-/* intro of mission2022 */
-/* intro of mission2022 */
-/* intro of mission2022 */
+/* intro of mission2022 //////////////////////////////////*/
 
 .mission2022yollow {
+  /* indivudual color bebhoharer jonno */
   color: #ffad5a;
 }
 
@@ -36,8 +36,11 @@ section {
   padding-left: 5%;
 }
 .intro-line {
+  /* akta line er color bheboharer jonno */
   border-left: 5px solid red;
+  /* line hight  */
   height: 220px;
+  /* koto jayga dore thakbe */
   border-radius: 5px;
 }
 .intro img {
@@ -63,33 +66,71 @@ section {
 .top-banner {
 }
 
-/* bullet box */
-/* bullet box */
-/* bullet box */
+/* bullet box ///////////////////////////////////////////*/
+.bullet-wrapper{
+/* akhane border kora hoy */
+/* width: 50%;
+margin: 0 auto; */
+
+}
 
 .bullethead {
+  /* kothay thakbe */
   position: relative;
+  /* left e baray dibe */
   padding-left: 30%;
 }
 .bb2022yollow {
   color: #ffad5a;
 }
 
-/* card-bullet */
+/* card-bullet /////////////////////////////////////////*/
 
-.card {
-  width: 33%;
+.second-section{
+    padding-bottom: 90px;
 }
-.card-img {
-  width: 200px;
+.second-heading h1{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    color: #13103A;
 }
-.card-img img {
-  width: 100%;
+.all-box{
+    display: flex;
+    justify-content: space-between;
+}
+#mission{
+    background-color: #EDF5F6;
+}
+#vission{
+    background-color: #FFEEEE;
+}
+#goals{
+    background-color: #FFF4D6;
+}
+.common-box{
+    padding: 20px 27px 30px;
+    width: 27%;
+    border-radius: 30px;
+}
+.box-image{
+    width: 140px;
+}
+.box-image img{
+    width: 100%;
+}
+.common-box h3{
+    margin: 10px 0 20px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #000000;
+}
+.common-box p{
+    margin: 0;
 }
 
-/* <!-- ourdevelop --> */
-/* <!-- ourdevelop --> */
-/* <!-- ourdevelop --> */
+
+/* <!-- ourdevelop --> //////////////////////////////////*/
 .developer {
   /* box gula soman nite hoile */
   width: 50%;
@@ -117,15 +158,14 @@ section {
 }
 .develop-banner {
   background-image: url(images/shapes/shape-1.png);
+  /*  */
   width: 100%;
   background-repeat: no-repeat;
   background-position: left;
   background-size: 20%;
 }
 
-/* <!-- ourcommunity --> */
-/* <!-- ourcommunity --> */
-/* <!-- ourcommunity --> */
+/* <!-- ourcommunity --> ////////////////////////////////*/
 .community {
   /* box gula soman nite hoile */
   width: 50%;
@@ -158,9 +198,7 @@ section {
   background-repeat: no-repeat;
   background-position: bottom right;
 }
-/* <!-- build apps --> */
-/* <!-- build apps --> */
-/* <!-- build apps --> */
+/* <!-- build apps --> //////////////////////////////////*/
 .buildreact-head {
   position: relative;
   padding-left: 30%;
@@ -169,9 +207,7 @@ section {
 .buildreact-yollow {
   color: #ffad5a;
 }
-/* <!-- react --> */
-/* <!-- react--> */
-/* <!-- react --> */
+/* <!-- react --> ///////////////////////////////////////*/
 .react {
   /* box gula soman nite hoile */
   width: 50%;
@@ -194,7 +230,7 @@ section {
 
 .reactheadash
 
-/* <!-- footer  --> */
+/* <!-- footer  --> /////////////////////////////////////*/
 
 .fsred2022red {
   color: red;
